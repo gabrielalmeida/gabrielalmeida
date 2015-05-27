@@ -1,0 +1,30 @@
+@import "import/lesshat";
+@import "import/animate";
+
+@screen-sm-min: 768px;
+@screen-md-min: 992px;
+@screen-lg-min: 1200px;
+
+@pink-pig: #F161B2;
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-size: 16px;
+  line-height: 18px;
+  text-rendering: optimizeLegibility;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+
+  background: @pink-pig;
+  text-align: center;
+
+  color: #FFF;
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.9);
+}

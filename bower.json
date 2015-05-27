@@ -1,0 +1,28 @@
+{
+  "name": "gabrielalmeida",
+  "version": "0.0.1",
+  "authors": [
+    "Gabriel Almeida <gabriel.almeida.rj@gmail.com>"
+  ],
+  "description": "Gabriel Almeida's personal website",
+  "main": "app/index.html",
+  "keywords": [
+    "gbrl",
+    "gabrielalmeida",
+    "gabriel_almeida"
+  ],
+  "license": "MIT",
+  "homepage": "http://gabrielalmeida.me",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.3",
+    "fullpage.js": "~2.6.5",
+    "wow": "~1.1.2"
+  }
+}
